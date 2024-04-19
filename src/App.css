@@ -1,0 +1,120 @@
+:root {
+  --blue: #1855ff;
+  --white: #fff;
+  --green: #41e041;
+  --red:  #f02367;
+  --gray: #9da6b5;
+}
+
+.top-data {
+  padding: 40px 25px 0;
+  position: relative;
+  bottom: -470px;
+}
+
+.crypto-price {
+  font-size: 30px;
+  margin: 12px 0 0;
+  font-weight: 300;
+  position: relative;
+  top: -1100px;
+  left: 600px;
+}
+
+.top-data h4 {
+  position: relative;
+  top: 20px;
+  left: -120px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(0 0 0 / 60%);
+}
+
+.crypto-price span {
+  font-size: 57px;
+  position: relative;
+  padding: 20px 40px;
+  border-radius: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffffff;
+}
+
+.positive {
+  background: var(--green);
+}
+
+.negative {
+  background: var(--red);
+}
+
+#value {
+  text-align: left;
+  font-size: 120px;
+  padding-left: 100px;
+  font-family: onest;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  width: 56%;
+  color: rgb(0 0 0 / 70%);
+}
+
+b {
+  font-family: onest;
+  font-weight: 600;
+  font-size: 120px;
+  color: rgb(0 0 0 / 70%);
+}
+
+#calculation {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 80px;
+  padding-left: 100px;
+  color: rgb(0 0 0 / 40%);
+}
+
+.chart-actions {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: -340px;
+  left: 25px;
+}
+
+.chart-actions button {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #f0f3ff;
+  height: 110px;
+  width: 400px;
+  color: var(--gray);
+  font-size: 50px;
+  padding: 24px 40px;
+  border: 1px solid transparent;
+  margin: -20px 145px -250px 0;
+  cursor: pointer;
+}
+
+.chart-actions button:hover,
+.chart-actions button:focus {
+  border: none;
+  background: var(--gray);
+  color: #fff;
+  border-radius: 100px;
+  padding: 24px 40px;
+}
+
+.chart-actions .active {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 50px;
+  color: var(--white);
+  border: none;
+  background: var(--gray);
+  border-radius: 100px;
+  padding: 24px 40px;
+}

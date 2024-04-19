@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 3.5em;
+  font-weight: 600;
+}
+
+.menu-trigger {
+  display: block;
+  position: relative;
+  top: -1900px;
+  right: -800px;
+  height: 350px;
+  width: 150px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: block;
+  position: relative;
+  top: -1950px;
+  right: -300px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  width: 700px;
+  height: 700px;
+  padding: 20px 0 0 40px;
+  display: none;
+  z-index: 3;
+}
+
+.dropdown-menu.active {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown-menu ul li {
+  padding: 40px 0 10px 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.dropdown-menu ul li:first-child {
+  border-top: none;
+}
+
+.dropdown-menu ul li:hover a {
+  color: rgb(255, 30, 0);
+  cursor: pointer;
+}
+
+.dropdown-menu ul li:hover img {
+  color: rgb(255, 30, 0);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.dropdownItem {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 0px 60px 30px 20px;
+}
+
+.dropdownItem img {
+  opacity: 1;
+  width: 80px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 2;
+}

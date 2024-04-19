@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: onest;
+}
+@media (max-width: 480px) {
+  .topnav {
+    left: 135px;
+  }
+}
+.topnav {
+  background-color: #ffffff;
+  position: relative;
+  top: -1190px;
+  z-index: 1;
+  cursor: pointer;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+}
+
+.topnav h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 80px;
+  color: rgb(0, 0, 0, 70%);
+}
+
+.topnav text {
+  text-align: center;
+  font-size: 60px;
+  margin: 0 100px;
+  color: rgb(0, 0, 0, 70%);
+}
+
+
+.topnav p {
+  text-align: center;
+  color: rgb(0, 0, 0, 70%);
+}
+
+.topnav .menu-container {
+  overflow: hidden;
+  width: 1270px;
+  transition: height 0.3s ease-in-out;
+}
+
+
+.topnav .arrow {
+  position: relative;
+  margin-top: -150px;
+  margin-left: 170px;
+  cursor: pointer;
+}
+
+.buy,
+.sell {
+  cursor: pointer;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.arrow.active {
+  position: relative;
+  transform: rotate(180deg);
+}
